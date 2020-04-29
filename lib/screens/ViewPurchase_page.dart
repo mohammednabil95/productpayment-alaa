@@ -3,6 +3,7 @@ import 'package:productpayment/screens/vieworder_page.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
+import '../model/general.dart';
 import '../model/transacation.dart';
 
 class ViewPurchase extends StatefulWidget {
@@ -22,8 +23,9 @@ class _ViewPurchaseState extends State<ViewPurchase> {
 
   Future<PageList> getJson() async{
     SharedPreferences prefs=await SharedPreferences.getInstance();
+    var userId = prefs.getInt('userId').toString();
     var response=await http.get(
-        Uri.encodeFull("serverBaseUrl/order/getTransByUser/"+prefs.getInt('userId').toString()+""),
+        Uri.encodeFull("$serverBaseUrl/order/getTransByUser/$userId"),
         headers: {"Accept":"application/json"}
     );
     print(response.body);
