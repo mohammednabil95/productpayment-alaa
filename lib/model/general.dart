@@ -1,0 +1,1 @@
+String serverBaseUrl = "http://cashback.us-east-2.elasticbeanstalk.com/";

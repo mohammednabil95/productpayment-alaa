@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "647751855468",
+    "firebase_url": "https://hamdhelo.firebaseio.com",
+    "project_id": "hamdhelo",
+    "storage_bucket": "hamdhelo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647751855468:android:081afa87afe25df6d9d749",
+        "android_client_info": {
+          "package_name": "com.digital.productpayment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647751855468-0cae2vg90uljjm3450htl4a33dbp08bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVqrCiWcTD1Cptdi6aWQjye8lr8CaX0m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647751855468-0cae2vg90uljjm3450htl4a33dbp08bl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "647751855468-tc671u2cbhkj8upi8nv7206c6vf7b7vn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.digital.productpayment"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
